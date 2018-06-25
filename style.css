@@ -3,12 +3,12 @@
 
 }
 
-#image {
+#header-top #image {
     margin-left: auto;
     margin-right: auto;
 }
 
-img {
+#header-top img {
     display: block;
     height: 90%;
     width: 90%;
@@ -16,8 +16,50 @@ img {
     margin-right: auto;
 }
 
-h1 {
+#header-top h1 {
     font-family: Arial;
     color: royalblue;
     justify-content: center;
+}
+
+header{
+    padding: 5%;
+    height:100%;
+    width:100%
+}
+
+#banner{
+    display:flex;
+   
+}
+#banner img{
+    height:120%;
+    width:100%;
+}
+
+header h1{
+    position: absolute;
+    left:40%;
+    top:35%;
+    font-family:   
+}
+
+nav{
+    background-color:grey;
+    height:10%;
+ 
+
+}
+#navigation{
+    display:flex;
+    justify-content: flex-end;
+    margin:0;
+    
+    
+}
+.nav_list{
+    list-style-type: none;
+    padding-right:3px;
+   
+   
 }
