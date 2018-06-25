@@ -22,6 +22,30 @@
     justify-content: center;
 }
 
+#header-top {
+    margin: 0 auto;
+
+}
+
+#header-top #image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header-top img {
+    display: block;
+    height: 90%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header-top h1 {
+    font-family: Arial;
+    color: royalblue;
+    justify-content: center;
+}
+
 header{
     padding: 5%;
 }
@@ -37,14 +61,17 @@ header{
 
 header h1{
     position: absolute;
-    left:40%;
-    top:35%;
-    font-family:   
+    left:25%;
+    top:30%;
+    font-family:"Roboto";
+    font-size:4em;
+    word-spacing:.5em;
 }
 
 nav{
-    background-color:;
+    background-color:whitesmoke;
     padding:1%;
+    padding-right:5%;
  
 
 }
@@ -52,14 +79,43 @@ nav{
     display:flex;
     justify-content: flex-end;
     margin:0;
+    font-family:sans-serif;
     
     
 }
 .nav_list{
     list-style-type: none;
-    padding-right:3px;
+    padding-right:1%;  
+    padding-left:1%;
+}
+.nav_list a{
+    text-decoration: none;
+    color:black;
+    padding:20%;
+
+}
+a:hover{
+    background-color:grey;
    
-   
+}
+
+
+#main-bottom {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#supplement-img {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#supplement-img img {
+    width: 32%;
+    height: 100%;
+    padding: 0 5px;
 }
 
 #main-bottom {
@@ -78,3 +134,5 @@ nav{
     width: 32%;
     height: 100%;
     padding: 0 5px;
+}
+
