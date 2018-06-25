@@ -24,8 +24,6 @@
 
 header{
     padding: 5%;
-    height:100%;
-    width:100%
 }
 
 #banner{
@@ -45,8 +43,8 @@ header h1{
 }
 
 nav{
-    background-color:grey;
-    height:10%;
+    background-color:;
+    padding:1%;
  
 
 }
