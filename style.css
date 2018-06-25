@@ -1,0 +1,23 @@
+#header-top {
+    margin: 0 auto;
+
+}
+
+#image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+    height: 90%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: Arial;
+    color: royalblue;
+    justify-content: center;
+}
