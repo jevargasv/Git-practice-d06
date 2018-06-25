@@ -63,3 +63,20 @@ nav{
    
    
 }
+
+#main-bottom {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#supplement-img {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#supplement-img img {
+    width: 32%;
+    height: 100%;
+    padding: 0 5px;
