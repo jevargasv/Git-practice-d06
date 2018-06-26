@@ -24,3 +24,6 @@ It performs well when more people contribute to counter the issue.
 
 # About
 This project is free and open-source for now.
+
+# License
+This project is licensed under the index.html License - see the index.html file for details
