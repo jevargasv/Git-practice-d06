@@ -21,9 +21,13 @@ header{
     width:100%;
 }
 
-nav{
-    padding:1%;
-    padding-right:5%;
+header h1{
+    position: absolute;
+    left:25%;
+    top:30%;
+    font-family:"Roboto";
+    font-size:4em;
+    word-spacing:.5em;
 }
 
 #navigation{
@@ -35,28 +39,6 @@ nav{
 
 .nav_list{
     list-style-type: none;
-    font-size: 1.2em;
-    font-weight: bold;
-}
-
-.nav_list a{
-    text-decoration: none;
-    color:black;
-    padding:20%;
-
-}
-
-a:hover{
-    background-color:grey;
-}
-
-/* BODY P1 */
-#header-top {
-    margin: 0 auto;
-
-}
-
-#header-top #image {
     margin: 0 auto;
 }
 
@@ -91,6 +73,7 @@ a:hover{
 }
 
 #supplement-img {
+    background: #eee;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -101,10 +84,6 @@ a:hover{
     width: 32%;
     height: 100%;
     padding: 0 5px;
-}
-
-#supplement-img {
-    background: #eee;
 }
 
 /* FOOTER */
